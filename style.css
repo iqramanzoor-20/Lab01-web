@@ -1,0 +1,40 @@
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #212529;
+    margin: 0;
+}
+
+/* Introduction Section */
+.intro {
+    background-color: #e8f1ff;
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #a8c5eb;
+    border-radius: 12px;
+}
+
+/* Contact Section */
+#contact {
+    border-top: 2px solid #0d6efd;
+    padding-top: 16px;
+    margin-bottom: 20px;
+}
+
+/* Course Cards */
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 575.98px) {
+    .intro {
+        padding: 16px;
+    }
+}
